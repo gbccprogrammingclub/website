@@ -1,0 +1,122 @@
+body {
+font-family:Helvetica;
+line-height:150%;
+margin:90px 75px;
+padding:20px;
+text-align:left;
+background-color:#349859;
+}
+h1 {
+margin:0px 0px;
+color:#FF0000;
+text-align:center;
+}
+h2 {
+margin:0px 0px;
+color:#FF0000;
+text-align:center;
+}
+h3 {
+margin:0px 0px;
+color:#FF0000;
+}
+h4 {
+margin:0px 0px;
+color:#FF0000;
+}
+h5 {
+margin:0px 0px;
+color:#FF0000;
+}
+h6 {
+margin:0px 0px;
+color:#FF0000;
+}
+p {
+margin:0px 0px;
+text-align:left;
+}
+img {
+padding:0px;
+border:0px;
+background-color:#000000;
+display: block;
+    margin: 0 auto;
+}
+a:link, a:visited {
+font-weight:normal;
+color:#7094FF;
+background-color:#333;
+width:100px;
+text-align:center;
+padding:0px;
+text-decoration:none;
+}
+a:hover {
+    color:#FF0000;
+}
+a:active {
+    color:#FFFFFF;
+}
+header {
+height:90px;
+background:#000000;
+margin:0px;
+width:100%;
+position:fixed;
+padding:0px;
+top:0px;
+left:0px;
+}
+ {
+padding:0;
+}
+
+/*li {*/
+display:inline;
+}
+
+/*added stuff*/
+.testDiv {
+	border: 5px solid blue;
+}
+
+.flex-container {
+    display: -webkit-flex;
+    display: flex;  
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    text-align: center;
+}
+
+.flex-container > * {
+    padding: 15px;
+    -webkit-flex: 1 100%;
+    flex: 1 100%;
+}
+
+/*header shit*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 0px 0px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
